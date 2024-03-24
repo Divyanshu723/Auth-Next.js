@@ -1,11 +1,11 @@
 "use client";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-export default function resetPassword() {
+export default function ResetPassword() {
   const router = useRouter();
   const [useremail, setUserEmail] = useState("");
   const [loading, setLoading] = useState(false);

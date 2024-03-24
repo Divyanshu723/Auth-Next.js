@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react"
 import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
 
-export default function updatePasswordPage() {
+export default function UpdatePasswordPage() {
     const router = useRouter();
     const [error, setError] = useState(false);
     const [loading, setLoading] = useState(false);
